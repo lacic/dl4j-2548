@@ -20,6 +20,8 @@ import java.util.stream.Collectors;
 public class EvaluationExampleCorrect {
 
     public static void main(String... args) {
+        Nd4j.create(1);
+
         // where are the trained model and the corresponding normalizers stored ?
         String modelPath = "data" + File.separator + "models" + File.separator;
         String normalizerPath = "data" + File.separator + "normalizers" + File.separator;
